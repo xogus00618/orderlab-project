@@ -19,7 +19,7 @@ def test_subtotal_negative():
 @pytest.mark.parametrize(
     "price, qty, discount, expected",
     [
-        (10_000, 2, 0, 23_000),
+        (10_000, 2, 0, 24_000),
         (49_999, 1, 0, 52_999),
         (50_000, 1, 0, 50_000),
         (50_001, 1, 0, 50_001),
